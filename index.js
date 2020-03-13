@@ -16,5 +16,6 @@ function increaseRankBy(n) {
   for (var i = 0; i < rankedList.length; i++) {
     rankedList[i].innerHTML = parseInt(i + n);
   }
+  return rankedList;
 
 }
